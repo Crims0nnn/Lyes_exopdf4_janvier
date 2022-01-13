@@ -13,7 +13,7 @@ scanf("%d",&lieux);
 for(i=0;i<lieux;i++){
     printf("Veuillez saisir le nombre d'habitant \n");
     scanf("%d",&habitant);
-    if(habitant>=10000){
+    if(habitant>10000){
         ville=ville+1;}
 }
 printf("vous avez visiter ""%d" " ville(s) \n",ville);
@@ -30,7 +30,7 @@ LIRE lieux
 POUR i de i<lieux FAIRE PAS DE 1      boucle qui continue tant que i est inferieur a lieux
 ECRIRE"Veulliez entrer le nombre d'habitant"
 LIRE habitant
-SI habitant>=10000   vérification de entier habitant
+SI habitant>10000   vérification de entier habitant
 ville=ville+1        si habitant est supérieur ou égal à 10000 alors ville augmente de 1
 FINTANTQUE
 LIRE ville          Affiche le nombre de ville une fois que l'utilisateur à entrer 0
@@ -43,7 +43,7 @@ int age,poids;
 
 printf("Quel est votre age? \n");
 scanf("%d",&age);
-printf("Quel est votre poids \n");
+printf("Quel poids font vos bagages? \n");
 scanf("%d",&poids);
 
 if(age==60){
